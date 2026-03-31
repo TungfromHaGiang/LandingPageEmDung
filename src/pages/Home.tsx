@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, Star, Shield, Zap, Users } from 'lucide-react';
+import {ArrowRight, Star, Shield, Zap, Users, Medal} from 'lucide-react';
 
 export function Home() {
   return (
@@ -66,7 +66,7 @@ export function Home() {
           { label: 'Học sinh', value: '2,500+', icon: Star },
           { label: 'Giáo viên', value: '150+', icon: Users },
           { label: 'Năm kinh nghiệm', value: '25+', icon: Shield },
-          { label: 'Giải thưởng', value: '100+', icon: Zap },
+          { label: 'Nhà giáo ưu tứ', value: '07', icon: Medal },
         ].map((stat, i) => (
           <motion.div
             key={i}
@@ -89,7 +89,7 @@ export function Home() {
       <section className="space-y-8">
         <div className="flex justify-between items-end">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold text-slate-900">Hoạt động nổi bật</h2>
+            <h2 className="text-3xl font-bold text-slate-900">Trường học giàu thành tích</h2>
             <p className="text-slate-500">Ghi lại những khoảnh khắc đáng nhớ của thầy và trò.</p>
           </div>
           <button className="text-primary-500 font-bold flex items-center gap-1 hover:gap-2 transition-all">
@@ -103,13 +103,13 @@ export function Home() {
             className="md:col-span-2 h-[400px] rounded-3xl overflow-hidden relative group"
           >
             <img
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=1200"
+              src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/492452378_1269310045096922_7822917896949911193_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=rezDgKTZQOoQ7kNvwFrdyg1&_nc_oc=AdoeU-AxfxJkg8gdL9Eq0GfgSafRPTelwvi4wc3slNVwlJg78HY-S_e9udcjY6xsUFk&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=qPN1cf_-1EJf-XNo2Vqhfg&_nc_ss=7a3a8&oh=00_Afx7BlS2k2xNRjfJnzmGG00IrVIUY9A9O4N5sPtO1FKhnA&oe=69D1C670"
               alt="Activity 1"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
-              <p className="text-white font-bold text-xl">Lễ hội văn hóa dân gian 2023</p>
+              <p className="text-white font-bold text-xl">Chi Hội Cựu giáo chức trường THPT Lê Hồng Phong</p>
             </div>
           </motion.div>
           <motion.div
@@ -117,13 +117,13 @@ export function Home() {
             className="h-[400px] rounded-3xl overflow-hidden relative group"
           >
             <img
-              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
+              src="https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/596396998_1534315031530562_3539168427374918870_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=IKVgO0CUNPAQ7kNvwGFwF28&_nc_oc=AdrsQje2L_kit7pdfmOzp6yGGqr5cE-JIajLPEqfAr9akDFCutF0px9h-QXG0bkkEK8&_nc_zt=23&_nc_ht=scontent.fhan5-11.fna&_nc_gid=2PcoY0LXZNzUMw3Cnl7T4Q&_nc_ss=7a3a8&oh=00_Afz_6JnCIMBtm434-SKFPHOMVBR4DojaG_1GMrxIazsRQA&oe=69D1CB50"
               alt="Activity 2"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
-              <p className="text-white font-bold text-xl">Giải bóng đá học sinh</p>
+              <p className="text-white font-bold text-xl">Giao lưu trao đổi công tác chuyên môn năm học 2025-2026</p>
             </div>
           </motion.div>
         </div>

@@ -59,12 +59,12 @@ export function Facilities() {
       {/* Virtual Tour Section */}
       <section className="bg-primary-500 rounded-[3rem] p-12 text-white relative overflow-hidden">
         <div className="relative z-10 max-w-xl space-y-6">
-          <h2 className="text-3xl font-bold">Tham quan thực tế ảo</h2>
+          <h2 className="text-3xl font-bold whitespace-nowrap">Học tập và làm theo tư tưởng Hồ Chí Minh</h2>
           <p className="text-primary-100 text-lg">
-            Khám phá từng ngóc ngách của ngôi trường thông qua công nghệ 360 độ hiện đại ngay tại nhà.
+              Ý thức làm chủ không chỉ không phải chỉ tỏ rõ ở tinh thần hăng hái lao động, mà còn phải tỏ rõ ở tinh thần say mê học tập để không ngừng nâng cao năng lực làm chủ của mình.
           </p>
           <button className="px-8 py-4 bg-white text-primary-500 rounded-2xl font-bold hover:bg-primary-50 transition-colors shadow-lg">
-            Bắt đầu tham quan
+            Chủ tịch Hồ Chí Minh
           </button>
         </div>
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none">
