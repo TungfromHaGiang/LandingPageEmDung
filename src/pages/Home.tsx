@@ -63,9 +63,9 @@ export function Home() {
       {/* Stats Section */}
       <section className="grid grid-cols-2 lg:grid-cols-4 gap-8">
         {[
-          { label: 'Học sinh', value: '2,500+', icon: Star },
-          { label: 'Giáo viên', value: '150+', icon: Users },
-          { label: 'Năm kinh nghiệm', value: '25+', icon: Shield },
+          { label: 'Học sinh', value: '1,800+', icon: Star },
+          { label: 'Giáo viên', value: '50+', icon: Users },
+          { label: 'Năm kinh nghiệm', value: '65+', icon: Shield },
           { label: 'Nhà giáo ưu tứ', value: '07', icon: Medal },
         ].map((stat, i) => (
           <motion.div
